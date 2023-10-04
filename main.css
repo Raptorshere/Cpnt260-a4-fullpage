@@ -1,0 +1,82 @@
+/* page layout */
+/* primary color #b1c2c9 */
+/* secondary color #26282c */ 
+
+
+ /* Nav */
+ header {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Chivo', sans-serif;
+  background-color: #8B0000;
+  min-width: 1rem;
+  margin: 0;
+ }
+
+ 
+ .container {
+  color: #b1c2c9;
+  margin: 0;
+
+ }
+
+ /* info for blog */
+ body {
+  background-image: url(https://images.pling.com/img/00/00/64/96/96/1730263/trippy-011.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  min-width: 1rem;
+    
+  margin: 0;
+
+  width: clamp(200px, 50%, 600px);
+ } 
+
+ /* Heading of Chapter 1 */
+ h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+  color: white;
+  font-family: 'Crimson Text', serif;
+
+ }
+
+ /* Paragraph text */
+ p {
+  color: white;
+  font-style: italic;
+  font-size: 22px;
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+ }
+
+/* footer */
+ div {
+  font-family: 'Crimson Text', serif;
+  font-size: 22px;
+ }
+
+
+ main {
+  color: white;
+
+  font-size: 22px;
+  font-style: italic;
+ }
+
+ /* Chapter 2 */
+ h2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+
+  color: white;
+ }
+
+ /* Footer */
+ footer {
+  font-family: 'Crimson Text', serif;
+  font-size: 22px;
+  color: white;
+ }

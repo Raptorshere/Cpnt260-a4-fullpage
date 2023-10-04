@@ -1,0 +1,48 @@
+ /* Navbar */
+
+ /* unordered list in navbar */
+ ul {
+  display: none;
+  margin: 0;
+  
+ }
+ 
+ /* listed nav */
+ li {
+  margin: 0;
+  min-width: 1rem;
+ }
+
+
+ /* nav color */
+ a {
+ color:	#b1c2c9;
+ line-height: 2;
+ }
+
+ .container {
+  display: block;
+  gap: 8%;
+  max-width: 40ch;
+  border-radius: 1rem;
+ }
+
+
+ a:link
+ :visited
+ :focus{
+   color: #26282c;
+   margin: 0;
+   border-radius: 1rem;
+ }
+
+ 
+ nav {
+ border-bottom: 1px solid black;
+ }
+
+ .container a:hover {
+  color: #26282c;
+ }
+
+ 
